@@ -11,13 +11,13 @@ let interval;
 
 btnStart.addEventListener('click', () => {
     clearInterval(interval);
-    inverval = setInterval(startTimer, 10);
+    interval = setInterval(startTimer, 10);
 })
 btnStop.addEventListener('click', () => {
-    clearInterval(inverval);
+    clearInterval(interval);
 })
 btnReset.addEventListener('click', () => {
-    clearInterval(inverval);
+    clearInterval(interval);
     tens = '00';
     seconds = '00';
     mins = '00';
